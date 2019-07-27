@@ -11,7 +11,7 @@ export default class Meme extends Component {
         return (
             <div>Its Meme
                 <div>{meme.id}---{meme.score}
-                    <img src={meme.imgUrl} alt="image"/>
+                    <img src={meme.imgUrl} alt="oops!"/>
                 </div>
             </div>
         )
